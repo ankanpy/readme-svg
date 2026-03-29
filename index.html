@@ -7,7 +7,7 @@
     <title>Vite App</title>
   </head>
   <body>
-    <svg width="550" height="400" viewBox="0 0 550 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="550" height="398" viewBox="0 0 550 398" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <style>
         rect {
           fill: #e9e9eb;
@@ -74,6 +74,15 @@
 
         .msg-6 {
           animation: wait 14.2s, msg-6 0.2s 14.2s;
+        }
+
+        .typing-7 {
+          opacity: 0;
+          animation: wait 15s, fade-in-out 1.5s 15s;
+        }
+
+        .msg-7 {
+          animation: wait 16.7s, msg-7 0.2s 16.7s;
         }
 
         @keyframes wait {
@@ -160,6 +169,17 @@
           }
         }
 
+        @keyframes msg-7 {
+          0% {
+            opacity: 0;
+            transform: translate(10px, 341px);
+          }
+          100% {
+            opacity: 1;
+            transform: translate(10px, 288px);
+          }
+        }
+
         @media (prefers-color-scheme: dark) {
           rect {
             fill: #3b3b3d;
@@ -213,14 +233,14 @@
         </circle>
       </g>
 
-      <!-- From Columbus... -->
+      <!-- Senior MLE // Vision Lead at AIVAR(AWS) -->
       <g transform="translate(10, 48)" class="msg-2">
-        <rect width="418" height="66.1302" rx="18.0355" />
-        <text x="15" y="27">Computer Vision Engineer at OpenCV</text>
+        <rect width="430" height="42" rx="18.0355" />
+        <text x="15" y="27">Senior MLE // Vision Lead at AIVAR(AWS)</text>
       </g>
 
       <!-- typing 3 -->
-      <g transform="translate(10, 120)" class="typing-3">
+      <g transform="translate(10, 96)" class="typing-3">
         <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
         <circle cx="13.591" cy="33.091" r="7.68185" />
         <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -235,16 +255,15 @@
           <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
         </circle>
       </g>
-      oo
 
-      <!-- From Columbus... -->
-      <g transform="translate(10, 120)" class="msg-3">
-        <rect width="430" height="66.1302" rx="18.0355" />
-        <text x="15" y="27">interned with IIT Gandhinagar</text>
+      <!-- ex OpenCV -->
+      <g transform="translate(10, 96)" class="msg-3">
+        <rect width="150" height="42" rx="18.0355" />
+        <text x="15" y="27">ex OpenCV</text>
       </g>
 
       <!-- typing 4 -->
-      <g transform="translate(10, 192)" class="typing-4">
+      <g transform="translate(10, 144)" class="typing-4">
         <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
         <circle cx="13.591" cy="33.091" r="7.68185" />
         <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -260,17 +279,14 @@
         </circle>
       </g>
 
-      <!-- Twitter -->
-      <g transform="translate(10, 192)" class="msg-4">
-        <rect width="473" height="42" rx="18.0355" />
-        <text x="15" y="27">
-          You can find me on Twitter at
-          <a xlink:href="https://twitter.com/0xSynapse">https://twitter.com/0xSynapse</a>
-        </text>
+      <!-- Interned with IIT Gandhinagar -->
+      <g transform="translate(10, 144)" class="msg-4">
+        <rect width="320" height="42" rx="18.0355" />
+        <text x="15" y="27">Interned with IIT Gandhinagar</text>
       </g>
 
       <!-- typing 5 -->
-      <g transform="translate(10, 240)" class="typing-5">
+      <g transform="translate(10, 192)" class="typing-5">
         <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
         <circle cx="13.591" cy="33.091" r="7.68185" />
         <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -286,17 +302,17 @@
         </circle>
       </g>
 
-      <!-- Thanks -->
-      <g transform="translate(10, 240)" class="msg-5">
-        <rect width="210" height="42" rx="18.0355" />
+      <!-- X (Twitter) -->
+      <g transform="translate(10, 192)" class="msg-5">
+        <rect width="460" height="42" rx="18.0355" />
         <text x="15" y="27">
-          Read my blogs at
-          <a xlink:href="https://learnopencv.com/author/ankan/">https://learnopencv.com/author/ankan/</a>
+          You can find me on X at
+          <a xlink:href="https://x.com/ankanpy" href="https://x.com/ankanpy" target="_blank" rel="noopener noreferrer">https://x.com/ankanpy</a>
         </text>
       </g>
 
       <!-- typing 6 -->
-      <g transform="translate(10, 288)" class="typing-6">
+      <g transform="translate(10, 240)" class="typing-6">
         <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
         <circle cx="13.591" cy="33.091" r="7.68185" />
         <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -312,10 +328,39 @@
         </circle>
       </g>
 
-      <!-- Have a great... -->
-      <g transform="translate(10, 288)" class="msg-6">
-        <rect width="210" height="42" rx="18.0355" />
-        <text x="15" y="27">Trust me, I am not a bot</text>
+      <!-- LinkedIn -->
+      <g transform="translate(10, 240)" class="msg-6">
+        <rect width="460" height="42" rx="18.0355" />
+        <text x="15" y="27">
+          LinkedIn:
+          <a xlink:href="https://www.linkedin.com/in/ankanpy" href="https://www.linkedin.com/in/ankanpy" target="_blank" rel="noopener noreferrer">linkedin.com/in/ankanpy</a>
+        </text>
+      </g>
+
+      <!-- typing 7 -->
+      <g transform="translate(10, 288)" class="typing-7">
+        <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
+        <circle cx="13.591" cy="33.091" r="7.68185" />
+        <circle cx="3.54547" cy="41.9547" r="3.54547" />
+
+        <circle cx="27.4778" cy="20.9773" r="5.02275" fill="#999999">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="42.8411" cy="20.9773" r="5.02275" fill="#999999">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+        </circle>
+      </g>
+
+      <!-- Blogs -->
+      <g transform="translate(10, 288)" class="msg-7">
+        <rect width="500" height="42" rx="18.0355" />
+        <text x="15" y="27">
+          Read my blogs at
+          <a xlink:href="https://learnopencv.com/author/ankan/" href="https://learnopencv.com/author/ankan/" target="_blank" rel="noopener noreferrer">learnopencv.com/author/ankan/</a>
+        </text>
       </g>
     </svg>
 

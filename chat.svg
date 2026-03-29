@@ -61,7 +61,7 @@
     }
 
     .msg-6 {
-      animation: wait 14.2s, msg-6 0.2s 16.7s;
+      animation: wait 14.2s, msg-6 0.2s 14.2s;
     }
 
     .typing-5 {
@@ -80,7 +80,7 @@
     }
 
     .msg-7 {
-      animation: wait 16.7s, msg-6 0.2s 14.2s;
+      animation: wait 16.7s, msg-7 0.2s 16.7s;
     }
 
     @keyframes wait {
@@ -312,10 +312,10 @@
 
   </g>
 
-  <!-- From Columbus... -->
+  <!-- Senior MLE // Vision Lead at AIVAR(AWS) -->
   <g transform="translate(10, 48)" class="msg-2">
-    <rect width="350" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27">Computer Vision Engineer at OpenCV</text>
+    <rect width="430" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">Senior MLE // Vision Lead at AIVAR(AWS)</text>
   </g>
 
   <!-- typing 3 -->
@@ -336,10 +336,10 @@
 
   </g>
 
-  <!-- Work ... -->
+  <!-- ex OpenCV -->
   <g transform="translate(10, 96)" class="msg-3">
-    <rect width="280" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27">Interned with IIT Gandhinagar</text>
+    <rect width="150" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">ex OpenCV</text>
   </g>
 
   <!-- typing 4 -->
@@ -360,10 +360,10 @@
 
   </g>
 
-  <!-- Twitter -->
+  <!-- Interned with IIT Gandhinagar -->
   <g transform="translate(10, 144)" class="msg-4">
-    <rect width="300" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27">Contributed to GCCD23 Kolkata</text>
+    <rect width="320" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">Interned with IIT Gandhinagar</text>
   </g>
 
   <!-- typing 5 -->
@@ -384,12 +384,12 @@
 
   </g>
 
-  <!-- Thanks -->
+  <!-- X (Twitter) -->
   <g transform="translate(10, 192)" class="msg-5">
-    <rect width="520" height="42.1302" rx="18.0355" class="bubble" />
+    <rect width="460" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
-      You can find me on Twitter at
-      <a xlink:href="https://twitter.com/0xSynapse">https://twitter.com/0xSynapse</a>
+      You can find me on X at
+      <a xlink:href="https://x.com/ankanpy" href="https://x.com/ankanpy" target="_blank" rel="noopener noreferrer">https://x.com/ankanpy</a>
     </text>
   </g>
 
@@ -411,14 +411,12 @@
 
   </g>
 
-  <!-- Have a great... -->
+  <!-- LinkedIn -->
   <g transform="translate(10, 240)" class="msg-6">
-    <rect width="500" height="42" rx="18.0355" class="bubble" />
+    <rect width="460" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
-      Read my blogs at
-      <a xlink:href="https://learnopencv.com/author/ankan">
-        https://learnopencv.com/author/ankan/
-      </a>
+      LinkedIn:
+      <a xlink:href="https://www.linkedin.com/in/ankanpy" href="https://www.linkedin.com/in/ankanpy" target="_blank" rel="noopener noreferrer">linkedin.com/in/ankanpy</a>
     </text>
   </g>
 
@@ -440,9 +438,12 @@
     </circle>
   </g>
 
-  <!-- Have a great... -->
+  <!-- Blogs -->
   <g transform="translate(10, 288)" class="msg-7">
-    <rect width="230" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27"> Trust me, I am not a bot </text>
+    <rect width="500" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">
+      Read my blogs at
+      <a xlink:href="https://learnopencv.com/author/ankan/" href="https://learnopencv.com/author/ankan/" target="_blank" rel="noopener noreferrer">learnopencv.com/author/ankan/</a>
+    </text>
   </g>
 </svg>
